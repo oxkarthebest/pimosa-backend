@@ -1,0 +1,30 @@
+{
+  "name": "pimosa-backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/api/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/api/main.js"
+  },
+  "keywords": [],
+  "author": "Alonso Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "generic-pool": "^3.7.1",
+    "morgan": "^1.9.1",
+    "mssql": "^6.0.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.2",
+    "path": "^0.12.7",
+    "tedious": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
